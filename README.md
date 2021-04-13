@@ -23,6 +23,6 @@ Simple Messaging App build by usinig flutter technology and firebase (as an auth
 | ------------ | ------------ |
 |![Registration Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Registration%20Screen.gif?raw=true) | ![Login Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Login%20Screen.gif?raw=true)|  
 
-|Chat Screen|
-| ------------ |
-|![Chat Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Chat%20Screen.jpg?raw=true) |
+|Chat Screen 1 | Chat Screen 2 |
+| ------------ | ------------ |
+|![Chat Screen 1](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Chat%20Screen%201.gif?raw=true) | ![Chat Screen 2](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Chat%20Screen%202.gif?raw=true)  |
