@@ -19,13 +19,9 @@ Simple Messaging App build by usinig flutter technology and firebase (as an auth
 > 
 ## Here is the preview of working app
 
-| Registration |
-| ------------ |
-|![Registration Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Registration%20Screen.gif?raw=true) | 
-
-| Login |
-| ------------ |
-|![Login Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Login%20Screen.gif?raw=true)|  
+| Registration | Login |
+| ------------ | ------------ |
+|![Registration Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Registration%20Screen.gif?raw=true) | ![Login Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Login%20Screen.gif?raw=true)|  
 
 |Chat Screen|
 | ------------ |
