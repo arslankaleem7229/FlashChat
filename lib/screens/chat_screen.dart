@@ -74,12 +74,13 @@ class _ChatScreenState extends State<ChatScreen> {
                       decoration: kMessageTextFieldDecoration,
                     ),
                   ),
-                  FlatButton(
+                  TextButton(
                     onPressed: () {
                       textEditingController.clear();
                       _firestore.collection("messages").add({
                         "sender": loggedInUser.email,
                         "text": _messages,
+                        "timeStamp": DateTime.now(),
                       });
                     },
                     child: Text(
@@ -101,7 +102,11 @@ class MessagesStream extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
-      stream: _firestore.collection('messages').snapshots(),
+      stream: _firestore
+          .collection('messages')
+          .orderBy("timeStamp", descending: false)
+          .limit(50)
+          .snapshots(),
       // ignore: missing_return
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
