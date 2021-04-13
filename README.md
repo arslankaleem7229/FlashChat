@@ -1,16 +1,28 @@
 # flashchat
 
-A new Flutter project.
+Simple Messaging App build by usinig flutter technology and firebase (as an authenticator as well as database)
 
-## Getting Started
+> 1). Create firebase project
+>
+> 2). Follow steps to create project
+>
+> 3). Link firebase with flutter by adding googleservices.json file in project
+>
+> 4). Run following commands in terminal
+>```
+> $ flutter pub get
+> 
+> $ flutter pub upgrade
+> 
+> $ flutter run
+> ```
+> 
+## Here is the preview of working app
 
-This project is a starting point for a Flutter application.
+| Registration | Login |
+| ------------ | ------------ |
+|![Registration Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Registration%20Screen.gif?raw=true) | ![Login Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Login%20Screen.gif?raw=true)|  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|Chat Screen|
+| ------------ |
+|![Chat Screen](https://github.com/arslankaleem7229/FlashChat/blob/main/Screenshots/Chat%20Screen.jpg?raw=true) |
